@@ -36,11 +36,11 @@ html(lang="es")
                             .card-body
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('1', 'Software', '#tema1')
-                                    +navTemaItem('2', 'Internet', '#tema2')
-                                    +navTemaItem('3', 'Ofimática', '#tema3')
-                                    +navTemaItem('4', 'Evaluación', '#tema4')
-                                    +navTemaItem('5', 'Mejora continua', '#tema5')
+                                    +navTemaItem('1', 'Software', '#tema-1')
+                                    +navTemaItem('2', 'Internet', '#tema-2')
+                                    +navTemaItem('3', 'Ofimática', '#tema-3')
+                                    +navTemaItem('4', 'Evaluación', '#tema-4')
+                                    +navTemaItem('5', 'Mejora continua', '#tema-5')
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
                                     +navTemaItem('folder', 'Material complementario', '#anexos')
                                     +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
@@ -53,6 +53,10 @@ html(lang="es")
                 include pages/2-tema.pug
             #tema-3
                 include pages/3-tema.pug
+            #tema-4
+                include pages/4-tema.pug
+            #tema-5
+                include pages/5-tema.pug
                          
             #glosario
                 include pages/glosario.pug
