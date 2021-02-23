@@ -1,5 +1,6 @@
 .page-header {
-    background: $brand-color-dark;
+    background: rgb(78,0,98);
+    background: linear-gradient(232deg, rgba(78,0,98,1) 0%, rgba(34,0,118,1) 100%); 
     position: relative;
 
     .barra-dots {
@@ -14,7 +15,7 @@
         content: '';
         border-style: solid;
         border-width:50px 50px 0px 50px;
-        border-color: $brand-color-dark transparent transparent transparent;
+        border-color: #32006f transparent transparent transparent;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
@@ -27,7 +28,7 @@
 .page-header-textura{
     .page-textura {
         padding: 2rem 1rem;
-        background: url(../images/header/header_pattern.png) scroll bottom center repeat !important;
+        background: url(../images/header/header_pattern.svg) scroll bottom center repeat !important;
     }
 }
 

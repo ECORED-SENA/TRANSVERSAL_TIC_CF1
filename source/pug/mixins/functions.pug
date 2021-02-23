@@ -6,7 +6,6 @@ mixin pageHeader(tituloTema, srcImagen, pagina)
 
             .col-12.col-lg-6
 
-                h3#curso-titulo-componente.curso-subtitulo Confección virtual – Transversal Tecnologías de la Información y la Comunicación (TIC)
                 h1#curso-titulo-tema.curso-titulo Tecnologías de la información y la comunicación (TIC)
                 
                 .brand-line-primaryOrientar
@@ -14,9 +13,9 @@ mixin pageHeader(tituloTema, srcImagen, pagina)
                 if pagina == 'main'
 
                     .keywords
-                        span.badge.badge-pill.badge-light.mr-2 #Moda
-                        span.badge.badge-pill.badge-warning.mr-2 #hardware
-                        span.badge.badge-pill.badge-light.mr-2 #software
+                        span.badge.badge-pill.badge-light.hash.mr-2 #Moda
+                        span.badge.badge-pill.badge-light.hash.mr-2 #hardware
+                        span.badge.badge-pill.badge-light.hash.mr-2 #software
                       
 
                     .barra-dots.mt-5
@@ -26,7 +25,7 @@ mixin pageHeader(tituloTema, srcImagen, pagina)
                     p.curso-descripcion La sociedad ha avanzado a pasos agigantados en la moda, en la tecnología, en la ciencia y muchas otras áreas del conocimiento. La informática se encarga del estudio del hardware, las redes de datos y el software necesario, para tratar la información de manera automática y el cual se convierte en factor primordial a la hora de gestionar la información y datos en formato digital para la administración de métodos, técnicas y procesos de la confección y moda.  
         
                 if pagina == 'home'
-                    a.curso-btn-iniciar.btn.btn-light(href="main.html")
+                    a.curso-btn-iniciar.btn.btn-danger(href="main.html")
                         span Iniciar curso
 
 
