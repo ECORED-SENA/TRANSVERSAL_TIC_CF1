@@ -11,7 +11,21 @@
     "slug": "software",
     "title": "1. Software",
     "breadcrumb": ["Inicio","Tema 1"],
-    "path": "pages/1-tema.html"
+    "path": "pages/1-tema.html",  
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "software",
+        "title": "1.1 Definición",
+        "anchor": "tema1_1"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "software",
+        "title": "1.2 Clasificación",
+        "anchor": "tema1_2"
+      }
+    ]  
   },
   { 
     "id": 1,
@@ -39,7 +53,7 @@
         "icon": "fa fa-file-text",
         "slug": "ofimatica",
         "title": "3.2 Funcionalidad de los sistemas operativos",
-        "anchor": "tema2_2"
+        "anchor": "tema3_2"
       },
       {
         "icon": "fa fa-file-text",
@@ -50,7 +64,7 @@
       {
         "icon": "fa fa-file-text",
         "slug": "ofimatica",
-        "title": "3.4 Motores de búsqueda, paginas sociales",
+        "title": "3.4 Motores de búsqueda, páginas sociales",
         "anchor": "tema3_4"
       },
       {
